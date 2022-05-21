@@ -25,6 +25,6 @@
 		<input type="submit" value="Login" /></form>
 
 
-<p>need a user ? Register <a href="/Register_1.jsp">Here</a></p>
+<p>need a user ? Register <a href="/project/Register_1.jsp">Here</a></p>
 </body>
 </html>
