@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Guru Login Form</title>
+<title>DevOps-Project-Login</title>
 </head>
 <body>
+
+<h1>DevOps Project HIT </h1>
+<h2>Welcome to our login page</h2>
 <form action="guru_login" method="post">
 		<table style="with: 50%">
 
@@ -20,5 +23,8 @@
 			</tr>
 		</table>
 		<input type="submit" value="Login" /></form>
+
+
+<p>need a user ? Register <a href="/Register_1.jsp">Here</a></p>
 </body>
 </html>
