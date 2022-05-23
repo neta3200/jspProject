@@ -17,14 +17,14 @@
    File file ;
    int maxFileSize = 5000 * 1024;
    int maxMemSize = 5000 * 1024;
-   String filePath = "/data/fileServer";
+   String filePath = "file_upload";
 
    String contentType = request.getContentType();
    if ((contentType.indexOf("multipart/form-data") >= 0)) {
 
       DiskFileItemFactory factory = new DiskFileItemFactory();
       factory.setSizeThreshold(maxMemSize);
-      factory.setRepository(new File("/data/temp"));
+      factory.setRepository(new File("/data/fileServer"));
       ServletFileUpload upload = new ServletFileUpload(factory);
       upload.setSizeMax( maxFileSize );
       try{ 
