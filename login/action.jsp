@@ -21,7 +21,7 @@
             <div class="colm-form">
                 <div class="form-container">
                     <form action="action_form_process.jsp" method="GET">
-                        <h2>You connect to our login page</h2> <br><br>
+                        <h2>You have connected successfuly</h2> <br><br>
                         <p><b>Welcome User:</b>
                         <%= request.getParameter("username")%> </p>             
                 </div>
