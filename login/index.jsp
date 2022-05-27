@@ -23,13 +23,9 @@
                     <form action="action.jsp" method="GET">
                         <input type="text" name=username placeholder="User name or email address">
                         <br />
-                        <input type="text" placeholder="Password" />
+                        <input type="password" placeholder="Password" />
                          <input type="submit" class="btn-login" value="Login" /> 
                         </form>
-                      <!--
-                    <input type="text" placeholder="Email address or phone number">
-                    <input type="password" placeholder="Password">
-                    <button class="btn-login">Login</button> -->  
                     <a href="#">Forgotten password?</a>
                     <button class="btn-new">Create new Account</button>
                 </div>
