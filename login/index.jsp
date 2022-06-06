@@ -14,6 +14,7 @@
                 <img src="devops.png" alt="Logo">
                 <h2><b>Devops Project HIT</b></h2>
                 <h2>    Students:<br> 
+                    Ziv 51514313 <br>
                     Netanel Eiluz 205856354 <br>
                     Sharon Guy  316582691 <br>
                     Noa Mishraki 206947533 </h2>
